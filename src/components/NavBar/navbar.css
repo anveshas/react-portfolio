@@ -1,0 +1,67 @@
+.navbar {
+    background: rgb(30,30,30);
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.logo {
+    object-fit: cover;
+    height: 4rem;
+    width: 7.4rem;
+    background: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0 1rem; */
+    border-radius: 0.5rem;
+}
+
+.desktopMenuListItem{
+    margin: 1rem;
+    cursor: pointer; 
+    text-decoration: none;
+}
+.desktopMenuListItem.active {
+    color: yellow;
+    padding-bottom: 0.5rem; 
+    border-bottom: 3px solid yellow;
+}
+.desktopMenuListItem:hover{
+    /* color: rgb(149, 128, 128); */
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid white;
+}
+
+.desktopMenuBtn{
+    background: white;
+    color: green;
+    border: none;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+ }
+
+.desktopMenuBtn:hover{
+    color: rgb(149, 128, 128);
+    padding-bottom: 0.25rem;
+    border-bottom: 1px;
+}
+
+.desktopMenuImg{
+    object-fit: cover;
+    height: 1.5rem;
+    width: 6rem;
+    margin: 1rem;
+}
