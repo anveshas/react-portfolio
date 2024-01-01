@@ -9,9 +9,9 @@ https://github.com/anveshas/react-portfolio/assets/137292899/1bea780e-4e21-4700-
 # Available Scripts
 In the project directory, you can run:
 
-[Link to Another File]npm start
+npm start
 Runs the app in the development mode.
-Open http://localhost:3000 to view it in your browser.
+Open [http://localhost:3000] to view it in your browser.
 
 The page will reload when you make changes.
 You may also see any lint errors in the console.
